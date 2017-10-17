@@ -1,4 +1,4 @@
-New-Variable -Name PrtgServerUrl -Value "adimonitoring.us.ae.ge.com" -Visibility Public -Scope Global -Force 
+New-Variable -Name PrtgServerUrl -Value "" -Visibility Public -Scope Global -Force 
 New-Variable -Name PrtgSession -Value $null -Visibility Public -Scope Global -Force
 New-Variable -Name PrtgApiUrl  -Visibility Public -Scope Global -Force -Value @{
     GetDeviceTable = "http://{0}/api/table.xml?content=devices&output=xml&columns=objid,probe,group,device&username={1}&passhash={2}&count={3}"
